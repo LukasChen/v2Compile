@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasChen/v2Compile.git"
+  },
   "author": "Lukas Chen",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.2.0"
+  }
 }

@@ -1,0 +1,32 @@
+<!doctype html>
+<html ng-app="demo">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>v2Compile Demo</title>
+
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<!--<div>
+  <hr/>
+  <select ng-options="s for s in selects" ng-model="el" common-things>
+    <option value=""></option>
+  </select>
+</div>-->
+
+<div class="container">
+  <h1><span v2-compile="[{tooltip: 'Hello'}]" screen-width="960">Hover over me!</span></h1>
+</div>
+
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+
+<script src="js/app.js"></script>
+<script src="../v2-compile.js"></script>
+
+</body>
+</html>

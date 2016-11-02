@@ -1,0 +1,17 @@
+{
+  "name": "v2-compile-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The demo for the Angular directive v2-compile",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lukas Chen",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-bootstrap": "^2.2.0",
+    "bootstrap": "^3.3.7"
+  }
+}
