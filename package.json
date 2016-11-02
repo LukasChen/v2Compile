@@ -1,0 +1,11 @@
+{
+  "name": "v2-compile",
+  "version": "0.30.0",
+  "description": "An Angular directive that dynamically compiles attribute directives based on screen width",
+  "main": "v2-compile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lukas Chen",
+  "license": "MIT"
+}
